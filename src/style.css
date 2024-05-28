@@ -1,8 +1,28 @@
-.hello{
-    background-color: aqua;
-    color: red;
+
+* {
+    background-color: gray;
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+    color: aqua;
+}
+
+h3{
+    text-align: center;
+    justify-content: center;
 }
 
 div{
-    background-color: blue;
+    color: purple;
+}
+
+.task{
+    padding: 30px;
+    margin: 40px;
+    background-color: violet;
+    opacity: 50%;
+    border-radius: 4px;
+
 }
