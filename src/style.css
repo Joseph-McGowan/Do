@@ -18,6 +18,26 @@ div{
     color: purple;
 }
 
+
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 10% 80%;
+}
+
+
+nav{
+    height: 100%;
+    background-color: coral;
+}
+
+.taskHolder{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
 .task{
     padding: 30px;
     margin: 40px;
